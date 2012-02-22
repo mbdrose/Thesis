@@ -1,0 +1,153 @@
+%\documentclass[a4paper,12pt]{}
+\documentclass[11pt,a4paper]{report} %report singleside
+
+\ifx\pdfoutput\undefined
+% we are running LaTeX, not pdflatex
+\usepackage{graphicx}
+\else
+% we are running pdflatex, so convert .eps files to .pdf
+\usepackage[pdftex]{graphicx}
+\usepackage{epstopdf}
+\fi 
+
+\usepackage{url}
+
+%\usepackage{feynmf}
+\usepackage{pslatex}
+\usepackage{a4wide}
+\usepackage{graphics}
+\usepackage{amsmath, amssymb, amsthm, latexsym}
+\NeedsTeXFormat{LaTeX2e}
+\usepackage{setspace}
+\usepackage{subfigure}
+\usepackage{color}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\usepackage[small]{caption}  %caption settings [normal] bf,up
+\usepackage{eso-pic}
+\usepackage{graphicx}
+\usepackage{type1cm}
+
+\oddsidemargin 0.5 in %0.5
+\evensidemargin -0.25 in %
+\textwidth 5.93 in
+
+\doublespacing
+\pagestyle{fancy}
+\addtolength{\headwidth}{\marginparsep}
+%    remember chapter title
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+%    section number and title
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}{}}
+\fancyfoot[RO,RE]{\thepage}
+\fancyhead[RO]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\cfoot{}
+
+\fancypagestyle{plain}{\renewcommand{\headrulewidth}{1pt}%
+        \renewcommand{\plainfootrulewidth}{0pt}%
+        \fancyhead[RO,LO]{}}
+\renewcommand{\baselinestretch}{1.5}
+
+%====
+%Insert to print the word ``draft'' across page
+%\makeatletter
+%  \AddToShipoutPicture{%
+%    \setlength{\@tempdimb}{.5\paperwidth}%
+%    \setlength{\@tempdimc}{.5\paperheight}%
+%    \setlength{\unitlength}{1pt}%
+%    \put(\strip@pt\@tempdimb,\strip@pt\@tempdimc){%
+%      \makebox(0,0){\rotatebox{0}{\textcolor[gray]{0.75}{\fontsize{5cm}{5cm}\selectfont{DRAFT}}}}
+%    }
+%}
+\makeatother 
+%----
+
+\oddsidemargin 1.36cm
+\textwidth 14.7cm
+
+\begin{document}
+\unitlength = 1mm
+\begin{titlepage}
+\begin{center}
+{\LARGE Searching for New Physics in the High Mass, Di-Lepton Channel, using the ATLAS Detector.\\}
+\vspace{2cm}
+{\Large Daniel Hayden\\}
+\vspace{1cm}
+{\large Department of Physics\\}
+{\large Royal Holloway, University of London\\}
+
+\end{center}
+\vspace{1cm}
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[scale=0.2]{images/rhulcrest_small.eps}
+\end{center}
+\end{figure}
+
+\begin{center}
+	\vspace{2cm}
+				 {A thesis submitted to the University of London for the \\Degree of Doctor of Philosophy\\}
+				 \vspace{1cm}
+{\today\\}
+\end{center}
+\end{titlepage}
+
+\newpage
+\begin{center}
+\vspace*{6cm}
+{\LARGE DECLARATION} \newline
+\vspace*{1cm}
+\end{center}
+\vspace{1cm}
+I confirm that the work presented in this thesis is my own.  Where information has been derived from other sources, I confirm that this has been indicated in the document.\newline \newline \newline 
+\vspace{5cm}
+Daniel Hayden 
+
+
+\begin{abstract}
+\input{chapters/Abstract}
+\end{abstract}
+
+\thispagestyle{empty} %Dedication section
+\begin{center}
+Write thanks here
+
+
+
+\end{center}
+\vspace{1cm}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\newpage
+
+\pagestyle{fancy}
+\addtolength{\headwidth}{\marginparsep}
+   %remember chapter title
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+    %section number and title
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}{}}
+\fancyfoot[RO,RE]{\thepage}
+\fancyhead[RO]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\cfoot{}
+
+\fancypagestyle{plain}{\renewcommand{\headrulewidth}{0pt}%
+       \renewcommand{\plainfootrulewidth}{0pt}%
+        \fancyhead[RO,LO]{}}
+\renewcommand{\baselinestretch}{1.5} 
+
+%Main text goes in chapters
+\newpage
+
+\input{chapters/ChapterTitle}
+
+\newpage
+\bibliographystyle{BibStyles/elsarticle-num}
+\bibliography{bib/myBib}
+
+\end{document}
