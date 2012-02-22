@@ -5,8 +5,12 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
-\bibitem{Higgs:2002ht}
-P.~W. Higgs, {My life as a boson: The story of ' The Higgs '}, Int. J. Mod.
-  Phys. A17S1 (2002) 86--88.
+\bibitem{note:munote}
+K.~Bachas, S.~Hassani, R.~Nicolaidou, E.~Mountricha, C.~Petridou, G.~Chiodini,
+  S.~Spagnolo, N.~Orlando, M.~Scherzer, B.~Heinemann, A.~Korn, S.~Hsu,
+  L.~Chevalier, K.~Kessoku, S.~Oda, H.~Sakamoto, T.~Matsuskita, P.~Kluit,
+  J.~Ottersbach, E.~Rossi, F.~Conventi, M.~Biglietti, M.~Corradi, A measurement
+  of the atlas muon reconstruction and trigger efficiency using j/psi decays,
+  Tech. Rep. ATLAS-COM-CONF-2011-002, CERN, Geneva (Jan 2011,).
 
 \end{thebibliography}
