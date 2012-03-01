@@ -1,0 +1,29 @@
+Schedule for Matthew Rose PhD thesis: by September 2012
+
+Matthew Rose & Dr Veronique Boisvert January 24th 2012
+
+•	By March 1st: Have everything completed for the SMT efficiency
+o	All 2011 SF with full uncertainties (all variables)
+o	ATLAS Note complete and submitted
+o	Evaluate impact of uncertainties on the cross section analysis
+•	By May 1st: Complete characterization of the SMT performance (finish study started first year)
+o	In signal MC: study the efficiency: where is the loss of efficiency coming from?
+o	In signal MC and QCD MC: where are the fakes coming from: fraction which is decays in flight, hadron punchthrough, others
+o	Study overlap with a lifetime tagger in signal MC and QCD MC, for both efficiency and fake aspects
+
+Main Chapters:
+1.	Introduction
+2.	The LHC and the ATLAS detector
+3.	Top physics and cross section
+4.	Physics of b-jet identification and the Soft Muon Tagger
+5.	Characterization of the SMT tagger using MC simulation
+6.	Data determination of the SMT efficiency
+7.	Conclusion
+
+
+Thesis writing schedule:
+•	By March 1st: Intro + Detector chapter
+•	By April 1st: Theory chapter
+•	By May 1st: Description of SMT tagger chapter
+•	By June 1st: Tag & Probe study and results
+•	By July 1st: Characterization of the SMT performance in MC chapter + Conclusion

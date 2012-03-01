@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.12.15)  22 FEB 2012 13:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.12.15)  29 FEB 2012 18:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -261,29 +261,29 @@ atched RF)
 )
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 42.
+less on input line 74.
 
 (./thesisMain.aux)
 \openout1 = `thesisMain.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 69.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 69
-.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 101.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 10
+1.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
 
 (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -353,7 +353,7 @@ Package epstopdf Info: Source file: <images/rhulcrestsmall.eps>
 (epstopdf)                    size: 46143 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/rhulcrestsmall-eps-
 converted-to.pdf images/rhulcrestsmall.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/rhulcrestsmall-eps-converted-to.pdf, id=1, 201.75375pt x 319.1925pt>
@@ -361,18 +361,18 @@ File: images/rhulcrestsmall-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/rhulcrestsmall-eps-converted-to.pdf>
 Package pdftex.def Info: images/rhulcrestsmall-eps-converted-to.pdf used on inp
-ut line 85.
+ut line 117.
 (pdftex.def)             Requested size: 40.35002pt x 63.83736pt.
  [1
 
 {/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
 s/rhulcrestsmall-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 104--107
+Underfull \hbox (badness 10000) in paragraph at lines 136--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--107
+Underfull \hbox (badness 10000) in paragraph at lines 136--139
 
  []
 
@@ -384,33 +384,38 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
- (./chapters/Abstract.tex) [1] [1]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+ (./chapters/Abstract.tex [1]
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
- (./thesisMain.toc
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 2.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+) [2
+
+] [1] (./thesisMain.toc
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 5.
 
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 2.
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 5.
 
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 2.
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 5.
 
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 )
 \tf@toc=\write3
 \openout3 = `thesisMain.toc'.
@@ -433,34 +438,59 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 ]
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 134.
+less on input line 166.
 
-(./chapters/ChapterTitle.tex
-Chapter 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(./chapters/Abstract.tex
+Chapter 2.
+) (./chapters/Introduction.tex [5
+
+]
+Chapter 3.
+) (./chapters/Detector.tex [6
+
+]
+Chapter 4.
+) (./chapters/SMT_Tagger.tex [7
+
+]
+Chapter 5.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-) [5
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+) (./chapters/SF_Calibration.tex [8
 
-] (./thesisMain.bbl) [6
+]
+Chapter 6.
+) (./chapters/Characterisation_of_SMT_Performance_in_MC.tex [9
+
+]
+Chapter 7.
+) (./chapters/ChapterTitle.tex [10
+
+]
+Chapter 8.
+) [11
+
+] (./thesisMain.bbl) [12
 
 ] (./thesisMain.aux) ) 
 Here is how much of TeX's memory you used:
- 4322 strings out of 493633
- 63641 string characters out of 3143376
- 120855 words of memory out of 3000000
- 7500 multiletter control sequences out of 15000+200000
- 26864 words of font info for 59 fonts, out of 3000000 for 9000
+ 4407 strings out of 493633
+ 64760 string characters out of 3143376
+ 122141 words of memory out of 3000000
+ 7553 multiletter control sequences out of 15000+200000
+ 45904 words of font info for 100 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  38i,11n,43p,255b,304s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/
-8r.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
-sr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on thesisMain.pdf (9 pages, 75815 bytes).
+8r.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></us
+r/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
+xlive/2011/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on thesisMain.pdf (16 pages, 82796 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

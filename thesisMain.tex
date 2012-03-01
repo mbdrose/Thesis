@@ -28,6 +28,38 @@
 \usepackage{graphicx}
 \usepackage{type1cm}
 
+%\renewcommand\Authands{, } % avoid ``. and'' for last author
+%\renewcommand\Affilfont{\itshape\small} % affiliation formatting
+\newcommand{\m}{$\mu$}
+\newcommand{\emu}{$\epsilon_\mu$}
+\newcommand{\eb}{$\epsilon_b$}
+\newcommand{\eone}{$\epsilon_1$}
+\newcommand{\etwo}{$\epsilon_2$}
+\newcommand{\ehf}{$\epsilon_{HF}$}
+\newcommand{\elf}{$\epsilon_{LF}$}
+\newcommand{\ru}{$R_u$}
+\newcommand{\pdgid}{\textrm{PDGid}}
+%\newcommand{\drmj}{$\textrm{DR}_{\mu j}$}
+\newcommand{\drmj}{$\Delta R(\mu, j)$}
+\newcommand{\drej}{$\Delta R(e, j)$}
+\newcommand{\naive}{`na\" \i ve'}
+\newcommand{\Naive}{`Na\" \i ve'}
+\newcommand{\xsq}{$\chi^{2}$}
+\newcommand{\xsd}{$\chi^{2}_{\textrm{DoF}}$}
+\newcommand{\xsm}{$\chi^{2}_{\textrm{match}}$}
+\newcommand{\xsqmath}{\chi^{2}}
+\newcommand{\xsdmath}{\chi^{2}_{\textrm{DoF}}}
+\newcommand{\xsmmath}{\chi^{2}_{\textrm{match}}}
+\newcommand{\ismp}{{\tt InSituMuonPerformance}}
+\newcommand{\athena}{{\sc athena}}
+\newcommand{\missing}{{\Large INSERT}}
+% Shorthand for \phantom to use in tables
+\newcommand{\pho}{\phantom{0}}
+\newcommand{\bslash}{\ensuremath{\backslash}}
+\newcommand{\BibTeX}{{\sc Bib\TeX}}
+% Upsilon(1S)
+\newcommand{\UoneS}{\ensuremath{\Upsilon(\mathrm{1S})}}
+
 \oddsidemargin 0.5 in %0.5
 \evensidemargin -0.25 in %
 \textwidth 5.93 in
@@ -88,7 +120,7 @@
 
 \begin{center}
 	\vspace{2cm}
-				 {A thesis submitted to the University of Londonin pursuance of the \\Degree of Doctor of Philosophy\\}
+				 {A thesis submitted to the University of London in pursuance of the \\Degree of Doctor of Philosophy\\}
 				 \vspace{1cm}
 {\today\\}
 \end{center}
@@ -103,16 +135,16 @@
 \vspace{1cm}
 I confirm that the work presented in this thesis is my own.  Where information has been derived from other sources, I confirm that this has been indicated in the document.\newline \newline \newline 
 \vspace{5cm}
-Daniel Hayden 
+Matthew Rose
 
 
 \begin{abstract}
 \input{chapters/Abstract}
 \end{abstract}
 
-\thispagestyle{empty} %Dedication section
+\thispagestyle{empty} %Acknowledgements section
 \begin{center}
-Write thanks here
+Write acknowledgements here
 
 
 
@@ -144,6 +176,13 @@ Write thanks here
 %Main text goes in chapters
 \newpage
 
+
+\input{chapters/Abstract}
+\input{chapters/Introduction}
+\input{chapters/Detector}
+\input{chapters/SMT_Tagger}
+\input{chapters/SF_Calibration}
+\input{chapters/Characterisation_of_SMT_Performance_in_MC}
 \input{chapters/ChapterTitle}
 
 \newpage
